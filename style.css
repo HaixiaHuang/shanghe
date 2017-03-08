@@ -1,0 +1,279 @@
+/* 清空所有的内外边距 */
+	body,ul,li,p,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+	}
+	input{
+		outline-style: none;
+	}
+	/* 第一部分  顶栏上的图片和按钮  */
+
+	 	.main{
+	 	width:980px;
+		height:30px;
+		margin: 0 auto;
+		margin-top:20px;
+		}
+
+		.photo{
+			float:left;
+			width:179px;
+			height:23px;
+			margin-bottom:8px;			
+		}
+
+		.hh{
+			position:relative;
+		}
+
+		.qs input{
+		 	float:right;
+			width:196px;
+			height:30px;
+			border: 1px #ECECEC solid;			
+		}
+		
+		.bt input{
+			float:right; 
+			height:33px;
+			width:33px;
+			background:url(images/search2.jpg );
+			position: absolute;
+			right: 0;
+		}
+	 /* 首页部分  */
+		 
+		.wz{
+			height:53px;
+			border-top: 1px #ECECEC solid;  
+			background: url(images/nav_bg.png);
+			margin-top:10px; 
+			 
+		}
+		.fd{
+			width:800px;
+			height:53px;
+			margin: 0 223px; 
+		}
+		.wz li{
+			float:left;
+			padding:0 45px;
+			list-style: none;
+			font-size: 12px;
+			height:53px;
+			line-height:53px;
+			font-weight: bold;
+			 margin: 0 auto; 
+			background: url(images/nav_bg-line.png) no-repeat right;
+			
+
+		}
+		.wz a{
+			text-decoration: none;
+			color: black;
+		}
+		.wz a:hover{
+			color: green;
+			}
+ 	/* 图片部分  */
+		.tp{
+			width:980px;
+			height:597px;
+			margin:0 auto;
+		}
+		.gg{
+			height:30px;
+			border-top:1px #CCCCCC solid; 
+			border-bottom:1px #CCCCCC solid;
+			line-height:30px;
+			padding-left:220px;
+		}
+
+ /* 最新公告部分 */
+		.news{
+			height:30px;
+			float:left;
+			font-size:12px;
+			 }
+
+ 	
+		.rr{
+			display: inline-block;
+			height:30px;
+			float:right;
+			margin: 0 auto;
+			padding-right:220px;
+		}
+
+	/* 新品发布部分 */
+		.xp{
+			width:312px;
+			height:226px;
+			border:1px #E4E4E4 solid;
+			float:left;
+			position: relative;
+		}
+		.oo{
+				height:12px;
+				margin-top:12px ;
+				color:green;
+				padding-left:2px;
+				font-size:13px;
+				line-height:12px;
+				
+		}
+	 	
+		 .left{
+		 	width: 11px;
+		 	height: 11px;
+			position: absolute;	
+			left: 39px;	
+			top: 110px;
+		} 
+	 	.home{
+	 		width:205px ;
+	 		height:149px;
+	 		position: absolute;	
+	 		top:48px;
+	 		left:54px;
+			text-align:center;
+				
+		} 
+		 .right{
+		 	width: 11px;
+		 	height: 11px;
+			position: absolute;	
+			right: 39px;	
+			top: 110px;
+		} 
+	/* 新闻中心部分 */
+		.xwzx{
+			width:372px;
+			height:226px;
+			border: 1px #E4E4E4 solid;
+			margin-left:12px;
+			float:left;
+		}
+		.xw{
+			height:12px;
+			color:green;
+			padding-left:2px;
+			font-size:13px;
+			line-height:12px;
+			
+		}
+		.bf{
+			padding-left:23px;
+			height:175px;
+			list-style:none;
+			margin-top:34px;			
+			
+		}
+		.bf li{
+
+			height:15px;
+			line-height:15px;
+			border-bottom:1px gray dashed;
+			margin-bottom:10px;
+			font-size:12px;
+		}
+		.zq{ 
+			color:red ;
+		 font-weight:bold;		
+		}		
+		.bf li a{
+			text-decoration:none;
+			color:black;			
+		}
+	/* 技术与支持部分 */
+		.js{
+			width:262px;
+			height:226px;			
+			border: 1px #E4E4E4 solid;
+			float:left;
+			margin-left: 12px;
+		}
+		.jszc{
+			height:12px;
+			margin-top:12px ;
+			color:green;
+			padding-left:2px;
+			font-size:13px;
+			line-height:12px;
+			
+		}
+		.js ul{
+			margin-top:10px;
+			margin-left:27px;
+			margin-bottom:23px;						
+		}
+		.js li{
+			line-height:22px;
+			font-size:12px;
+			list-style: none;
+		}
+		.js li a{
+			border-left:3px green solid; 
+			padding-left: 5px;
+			text-decoration:none;
+			color:black;			
+		}
+		.sz{
+			margin-left:27px;
+			font-size:12px;
+			margin-top:10px;
+			
+		}
+		.clearfix{
+			zoom: 1;
+		}
+		.clearfix:after{
+			display: block;
+			content: ".";
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+		.w980{
+			width: 980px;
+			margin: 0 auto;
+			margin-top: 12px;
+		}
+	/* 结尾底部的部分*/
+		.jw{
+			
+			height:220px;
+			background-color: #2D2D2D;
+			border-bottom: 1px #333 dashed;
+			margin-top: 15px;
+			font-size: 12px;
+			 color: #C7C7C7;
+		}
+		.sh,.fhsy{
+			width:980px;
+			height:69px;
+			margin: 0 auto;
+			
+			
+		}
+		.jw .sh{
+			color: #C7C7C7;
+		}
+		.fhsy{
+			color: #707070;
+		}
+			
+		dt,dd{
+			 float: left; 
+			 padding-left:47px;
+		}
+		.wy{
+			padding-top: 30px;
+			height: 40px;
+			text-align: center;
+			color: black;
+			font-size: 12px;
+			background-color: #2D2D2D;
+					
+		}
